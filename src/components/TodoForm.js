@@ -22,7 +22,7 @@ class TodoForm extends Component {
 						type='text'
 						value={this.state.todotext}
 						onChange={(e) => this.setState({ todotext: e.target.value })}
-						placeholder='Add your todo here...'
+						placeholder='Add your file name here...'
 					/>
 				</form>
 			</div>

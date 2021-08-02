@@ -8,9 +8,10 @@ export default class App extends Component {
 
 		this.state = {
 			todos: [
-				{ id: 1, title: 'First Todo', complete: false },
-				{ id: 2, title: 'Second Todo', complete: true },
-				{ id: 3, title: 'Third Todo', complete: true },
+				{ id: 1, title: 'case1', complete: false },
+				{ id: 2, title: 'case2 ', complete: false },
+				{ id: 3, title: 'case3 ', complete: false },
+				{ id: 4, title: 'case4 ', complete: false },
 			],
 		};
 	}
@@ -49,7 +50,7 @@ export default class App extends Component {
 		return (
 			<div>
 				
-				<h1 className='heading'>Todo Management Application with React</h1>
+				<h1 className='heading'>Forms with React</h1>
 				<div className='todos'>
 					{this.state.todos.map((todo) => (
 						<Todo
